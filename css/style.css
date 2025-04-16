@@ -119,4 +119,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.crafting .field img {
+  width: 90px;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
