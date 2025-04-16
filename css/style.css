@@ -116,4 +116,7 @@ body {
   height: 100px;
   background-color: rgb(100, 100, 100);
   border: 2px solid rgb(145, 145, 145);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
