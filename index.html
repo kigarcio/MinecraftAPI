@@ -15,55 +15,80 @@
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body>
-        <div class="app-box">
-            <div class="app-box__title"><h1>minecraft items</h1></div>
-            <div class="app-box__card">
-                <div class="app-box__card--all app-box__card--one">
-                    
-                    <div class="search-place">
-                        <h2>Search Items</h2>
-                        <input type="text" class="input-search-items"><button class="card-submit-items">Search</button>
-                    </div>
-                    <div class="show-place">
-                        <img src="" alt="" class="img-mc-items">
-                        <p class="card-text-items"></p>
-                    </div>
-                </div>
-                <div class="app-box__card--all app-box__card--two">
-                    
-                    <div class="search-place">
-                        <h2>Search Block</h2>
-                        <input type="text" class="input-search-block"><button class="card-submit-block">Search</button>
-                    </div>
-                    <div class="show-place">
-                        <img src="" alt="" class="img-mc-block">
-                        <p class="card-text-block"></p>
-                    </div>
-                </div>
-                <div class="app-box__card--all app-box__card--three">
-                    
-                    <div class="search-place">
-                        <h2>Search Recipes</h2>
-                        <input type="text" class="input-search-recipes"><button class="card-submit-recipes">Search</button>
-                    </div>
-                    <div class="show-place">
-                        <div class="crafting">
-                            <div class="field "><img src="" alt="" class="field-one"></div>
-                            <div class="field "><img src="" alt="" class="field-two"></div>
-                            <div class="field "><img src="" alt="" class="field-three"></div>
-                            <div class="field "><img src="" alt="" class="field-four"></div>
-                            <div class="field "><img src="" alt="" class="field-five"></div>
-                            <div class="field "><img src="" alt="" class="field-six"></div>
-                            <div class="field "><img src="" alt="" class="field-seven"></div>
-                            <div class="field "><img src="" alt="" class="field-eight"></div>
-                            <div class="field "><img src="" alt="" class="field-nine"></div>
-                        </div>
-                        <p class="card-text-recipes"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+		<div class="app-box">
+			<div class="app-box__title"><h1>minecraft items</h1></div>
+			<div class="app-box__card">
+				<div class="app-box__card--all app-box__card--one">
+					<div class="search-place">
+						<h2>Search Items</h2>
+						<input type="text" class="input-search-items" /><button
+							class="card-submit-items">
+							Search
+						</button>
+						<p class="error-item error"></p>
+					</div>
+					<div class="show-place">
+						
+						<img src="" alt="" class="img-mc-items img" />
+						<p class="card-text-items card-text-all"></p>
+						<p class="card-description-item card-description"></p>
+					</div>
+				</div>
+				<div class="app-box__card--all app-box__card--two">
+					<div class="search-place">
+						<h2>Search Block</h2>
+						<input type="text" class="input-search-block" /><button
+							class="card-submit-block">
+							Search
+						</button>
+						<p class="error-block error"></p>
+					</div>
+					<div class="show-place">
+						
+						<img src="" alt="" class="img-mc-block img" />
+						
+						<p class="card-text-block card-text-all"></p>
+						<p class="card-description-block card-description"></p>
+					</div>
+				</div>
+				<div class="app-box__card--all app-box__card--three">
+					<div class="search-place">
+						<h2>Search Recipes</h2>
+						<input type="text" class="input-search-recipes" /><button
+							class="card-submit-recipes">
+							Search
+						</button>
+						<p class="error-recipe error"></p>
+					</div>
+					<div class="show-place">
+						
+						<div class="crafting">
+							<div class="field"><img src="" alt="" class="field-one" /></div>
+							<div class="field"><img src="" alt="" class="field-two" /></div>
+							<div class="field"><img src="" alt="" class="field-three" /></div>
+							<div class="field"><img src="" alt="" class="field-four" /></div>
+							<div class="field"><img src="" alt="" class="field-five" /></div>
+							<div class="field"><img src="" alt="" class="field-six" /></div>
+							<div class="field"><img src="" alt="" class="field-seven" /></div>
+							<div class="field"><img src="" alt="" class="field-eight" /></div>
+							<div class="field"><img src="" alt="" class="field-nine" /></div>
+						</div>
+						<p class="card-text-recipes"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="item-list">
+			<div class="item-list-title"><h1>List of items & blocks</h1></div>
+			<div class="item-list-box">
+				<!-- <div class="item-list-field">
+					<p class="item-list-name">dsadasd</p>
+					<img src="" alt="" class="item-list-img">
+				</div> -->
+				
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 		<script src="./js/main.js"></script>
 	</body>
 </html>
